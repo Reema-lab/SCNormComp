@@ -1,0 +1,5 @@
+Package: SCNormComp
+Type: Package
+Title: Imputation and Normalization Method
+Version: 0.0.1.0
+RoxygenNote: 7.3.1
