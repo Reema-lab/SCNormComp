@@ -31,7 +31,8 @@ impRes <- function(x,y) {
   #Create a matrix of C rows and M columns, to store the genes corresponding to each cluster.
   #Get the Assay Data from the Seurat object.
   expression_data <- x
-  n_row <- length(unique(seuratobj_data$seurat_clusters))
+  n_row <- y
+  #n_row <- length(unique(seuratobj_data$seurat_clusters))
   n_row <- y
   n_col <- ncol(expression_data)
   n_r <- nrow(expression_data)
